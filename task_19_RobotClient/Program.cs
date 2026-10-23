@@ -43,7 +43,7 @@ while (running)
 
     Console.WriteLine(ecdn);
 
-    if (choice.Trim().ToUpperInvariant() == "EXIT")
+    if (choice.Trim().ToUpper() == "EXIT")
         break;
 }
 
